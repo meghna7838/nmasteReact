@@ -11,5 +11,8 @@
     "react"
   ],
   "author": "Meghna Tandon",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.12.0"
+  }
 }
