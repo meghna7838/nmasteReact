@@ -1,0 +1,15 @@
+{
+  "name": "ignition",
+  "version": "1.0.0",
+  "description": "React Basics",
+  "main": "script1.js",
+  "scripts": {
+    "test": "jtest"
+  },
+  "keywords": [
+    "npm",
+    "react"
+  ],
+  "author": "Meghna Tandon",
+  "license": "ISC"
+}
