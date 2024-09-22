@@ -2,7 +2,6 @@
   "name": "ignition",
   "version": "1.0.0",
   "description": "React Basics",
-  "main": "script1.js",
   "scripts": {
     "test": "jtest"
   },
@@ -20,4 +19,8 @@
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
   }
+  ,
+  "browser-list":[
+    "last 2 version"
+  ]
 }
