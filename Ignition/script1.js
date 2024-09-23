@@ -1,3 +1,6 @@
+import React from "react";
+import ReactDOM from "react-dom";
+
 //React code
 // const h= React.createElement("h1",{},"Hello World from React!!");
 // const r = ReactDOM.createRoot(document.getElementById("root"));
