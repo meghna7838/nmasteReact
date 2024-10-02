@@ -58,9 +58,23 @@ root.render(parent);*/
     
 //)
 
-const h = React.createElement("h1",{id:"heading"},"Namaste react");
+// const h = React.createElement("h1",{id:"heading"},"Namaste react");
 
-const h2 = <h1 className="head">Namaste react 2</h1>;
+// const h2 = <h1 className="head">Namaste react 2</h1>;
+
+// const root = ReactDOM.createRoot(document.getElementById("root"));
+// root.render(h2);
+
+//Functional component
+
+const HeadingComponent = () => <h1>Hello namaste React from funtional component</h1>;
+
+const ParagraphComponent = () =>(
+    <div>
+    <HeadingComponent/>
+    <p>This is component composition where we compose more than</p>
+    </div>
+)
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(h2);
+root.render(<ParagraphComponent/>);//Different from react element
